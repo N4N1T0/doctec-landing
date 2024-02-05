@@ -251,3 +251,24 @@ export const servicios = [
     ]
   }
 ];
+
+export const key = [
+  {
+    label: '8.2K',
+    subLabel: 'Promedio de Ganancias'
+  },
+  {
+    label: '120+',
+    subLabel: 'Proyectos Completados'
+  },
+  {
+    label: '95%',
+    subLabel: 'Clientes satisfechos'
+  }
+]
+
+export const projects = [
+  {
+    
+  }
+]
