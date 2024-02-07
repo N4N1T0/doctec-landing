@@ -330,8 +330,8 @@ export const testimonials = [
 ]
 
 export const preFooterStats = [
-  "Marketing vanguardia",
-  "Desarrollo innovador",
-  "Social media interactivo",
-  "Diseños adaptables"
+  'Marketing vanguardia',
+  'Desarrollo innovador',
+  'Social media interactivo',
+  'Diseños adaptables'
 ]

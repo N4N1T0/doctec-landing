@@ -2,7 +2,7 @@ import { process } from '@/constants'
 
 const Process = () => {
   return (
-    <section id="proceso" className='flex flex-col justify-center items-center max-w-[1600px] mx-auto px-2 md:px-10 gap-16'>
+    <section id='proceso' className='flex flex-col justify-center items-center max-w-[1600px] mx-auto px-2 md:px-10 gap-16'>
       <h3 className='uppercase text-2xl'>Nuestro Proceso</h3>
       <ul className='w-full flex flex-col md:flex-row justify-between items-center gap-10'>
         {process.map((item, index) => (

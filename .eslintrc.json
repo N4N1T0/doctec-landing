@@ -1,6 +1,7 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-   "jsx-quotes": ["error", "prefer-single"]
+   "jsx-quotes": ["error", "prefer-single"],
+   "quotes": ["error", "single"]
   }
 }

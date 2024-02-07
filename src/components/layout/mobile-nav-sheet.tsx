@@ -2,9 +2,9 @@ import {
   Sheet,
   SheetContent,
   SheetTrigger,
-} from "@/components/ui/sheet"
-import { navItems } from "@/constants/index"
-import { Button } from "../ui/button"
+} from '@/components/ui/sheet'
+import { navItems } from '@/constants/index'
+import { Button } from '../ui/button'
 
 const MobileNavSheet = () => {
   return (
