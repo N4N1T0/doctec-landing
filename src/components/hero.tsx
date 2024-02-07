@@ -8,7 +8,7 @@ const Hero = () => {
       <div className='hero-gradient absolute w-full h-full z-0' />
       <div className='z-10 gap-5 2xl:gap-16 flex justify-center items-center flex-col px-8 md:px-10'>
         <h1 className='text-5xl md:text-8xl 2xl:text-9xl uppercase md:leading-[9vw] leading-[20vw] text-center font-light'>
-          Somos <Image src={HeroImage1} alt='Una reunion de negocios con nuestros clientes' className='rounded-full inline object-cover h-[50px] w-[100px] md:h-[130px] md:w-[300px]' priority /> <span className='font-bold'>Doctec</span> <span className='font-bold'>World</span> <Image src={HeroImage2} alt='' className='rounded-full inline object-cover h-[50px] w-[100px] md:h-[130px] md:w-[300px]' priority /> <span className='w-[250px] text-base md:inline-block italic hidden'>somos una agencia de marketing y desarrollo web del futuro</span>
+          Somos <Image src={HeroImage1} width={300} height={150} alt='Una reunion de negocios con nuestros clientes' className='rounded-full inline object-cover aspect-video h-[130px]' priority /> <span className='font-bold'>Doctec</span> <span className='font-bold'>World</span> <Image src={HeroImage2} alt='Uno de nuestros especialistas compartiendo informacion' width={300} height={150} className='rounded-full inline object-cover aspect-video h-[130px]' priority /> <span className='w-[250px] text-base md:inline-block italic hidden'>somos una agencia de marketing y desarrollo web del futuro</span>
         </h1>
         <h2 className='text-center md:text-lg 2xl:text-xl px-5 font-light'>Aplicamos las últimas tendencias en marketing digital, combinadas con tecnologías de vanguardia en el desarrollo de software.</h2>
         <div className='gap-5 md:gap-10 flex flex-col md:flex-row'>
