@@ -3,22 +3,20 @@ import React from 'react'
 import { Quotes } from './icons'
 
 interface TestimonialCardProps {
-  testimonial: {
-    highlight: string
-    testimonial: string
-    client: {
-      name: string
-      position: string
-      picture: StaticImageData
-      company: StaticImageData
-    }
+  highlight: string
+  testimonial: string
+  client: {
+    name: string
+    position: string
+    picture: StaticImageData
+    company: StaticImageData
   }
 }
 
 
-const TestimonialCard = ({ testimonial }: TestimonialCardProps) => {
+const TestimonialCard = ({ testimonial, index }: { testimonial: TestimonialCardProps, index: number }) => {
   return (
-    <li key={testimonial.client.name} className='p-10 bg-foreground text-background space-y-7 flex-1 flex-shrink-0 flex-grow relative'>
+    <li key={testimonial.client.name} className={`${index === 0 ? 'fade-in-left' : 'fade-in-right'} p-10 bg-foreground text-background space-y-7 flex-1 flex-shrink-0 flex-grow relative`}>
       <h4 className='text-3xl'>{testimonial.highlight}</h4>
       <p className='font-light text-black'>{testimonial.testimonial}</p>
       <hr className='border-primary border-[0.7px]' />

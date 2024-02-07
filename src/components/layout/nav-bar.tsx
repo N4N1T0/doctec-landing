@@ -6,7 +6,7 @@ import MobileNavSheet from './mobile-nav-sheet'
 
 const NavBar = () => {
   return (
-    <header className='w-full flex justify-between items-center p-5 2xl:p-10 absolute z-50'>
+    <header className='w-full flex justify-between items-center p-5 2xl:p-10 absolute z-40'>
       <Image src={Logo} alt='Doctec World Logo' width={50} height={50} />
       <ul className='hidden sm:flex flex-1/2 bg-foreground text-background p-1'>
         {navItems.map((item) => (

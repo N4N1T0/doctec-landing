@@ -1,7 +1,10 @@
 import { Open_Sans } from 'next/font/google';
-import NavBar from '@/components/layout/nav-bar';
 import './globals.css';
+
+import NavBar from '@/components/layout/nav-bar';
 import Footer from '@/components/layout/footer';
+import Courtain from '@/components/courtain';
+
 import { DoctecMetatags } from '@/components/layout/metatag-seo';
 import { WebVitals } from '@/components/layout/web-vitals';
 
@@ -18,6 +21,7 @@ export default function RootLayout({
     <html lang='es'>
       <body className={`${openSans.className} relative`}>
         {process.env.NODE_ENV === 'development' ? <WebVitals /> : null}
+        <Courtain />
         <NavBar />
         {children}
         <Footer />
