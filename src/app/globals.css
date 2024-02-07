@@ -55,3 +55,40 @@
   background: radial-gradient(ellipse at 50% 50%, hsla(39,100%,50%,0.3) 0%, transparent 70%);
   transform: rotate(15deg);
 }
+
+.fade-in-left {
+  animation: reveal-left linear both;
+  animation-timeline: view();
+  animation-range: 50px 150px;
+}
+
+
+.fade-in-right {
+  animation: reveal-right linear both;
+  animation-timeline: view();
+  animation-range: 50px 150px;
+}
+
+@keyframes reveal-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes reveal-right {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

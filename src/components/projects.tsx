@@ -10,8 +10,8 @@ const Projects = () => {
       </div>
       <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-10'>
         {
-          projects.map(project => (
-            <a href={project.link} target='_blank' key={project.label} className='relative col-span-1 space-y-1 md:space-y-3 group' aria-label={project.label}>
+          projects.map((project, index) => (
+            <a href={project.link} target='_blank' key={project.label} className={`${index === 0 || index % 2 === 0 ? 'fade-in-left' : 'fade-in-right'} relative col-span-1 space-y-1 md:space-y-3 group`} aria-label={project.label}>
               <div className='overflow-clip '>
                 <Image src={project.image} alt={project.label} title={project.description} className='group-hover:scale-110 transition-transform group-hover:duration-700 duration-200' />
               </div>

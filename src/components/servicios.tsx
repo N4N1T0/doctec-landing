@@ -12,9 +12,9 @@ const Servicios = () => {
         <p className='font-light'>Una parte de nuestros mejores servicios</p>
       </div>
       <div className='flex-[60%] grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10'>
-        {servicios.map(service => (
+        {servicios.map((service, index) => (
           <ServicesDialog key={service.label} servicios={service}>
-            <ServicesCard service={service} />
+            <ServicesCard service={service} index={index} />
           </ServicesDialog>
         ))}
       </div>

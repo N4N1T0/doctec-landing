@@ -63,19 +63,19 @@ const Courtain = () => {
       id='courtin'>
       <div className='w-full flex-col md:flex-row flex justify-between items-center px-10 overflow-hidden'>
         <span
-          className='uppercase text-background text-5xl font-light opacity-0'
+          className='uppercase text-background text-5xl opacity-0'
           id='web'>Web Dev</span>
         <span
-          className='uppercase text-background text-5xl font-light opacity-0'
+          className='uppercase text-background text-5xl opacity-0'
           id='marketing'>Marketing</span>
         <span
-          className='uppercase text-background text-5xl font-light opacity-0'
+          className='uppercase text-background text-5xl opacity-0'
           id='branding'>Branding</span>
         <span
-          className='uppercase text-background text-5xl font-light opacity-0'
+          className='uppercase text-background text-5xl opacity-0'
           id='software'>Software</span>
         <span
-          className='uppercase text-background text-5xl font-light opacity-0'
+          className='uppercase text-background text-5xl opacity-0'
           id='social'>Social</span>
       </div>
     </div>

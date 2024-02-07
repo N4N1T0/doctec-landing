@@ -1,14 +1,12 @@
 interface ServicesCardProps {
-  service: {
-    label: string;
-    image: JSX.Element;
-    description: string;
-  }
+  label: string;
+  image: JSX.Element;
+  description: string;
 }
 
-const ServicesCard = ({ service }: ServicesCardProps) => {
+const ServicesCard = ({ service, index }: { service: ServicesCardProps, index: number }) => {
   return (
-    <div key={service.label} className='col-span-1 hover:bg-primary transition-colors duration-200 p-5 bg-muted space-y-20 group'>
+    <div key={service.label} className={`${index === 0 || index % 2 === 0 ? 'fade-in-left' : 'fade-in-right'} col-span-1 hover:bg-primary transition-colors duration-200 p-5 bg-muted space-y-20 group`}>
       <div className='w-full flex justify-between items-center'>
         {service.image}
         <div
