@@ -1,5 +1,5 @@
-import About from '@/components/about'
 import Hero from '@/components/hero'
+import About from '@/components/about'
 import Marquee from '@/components/marquee'
 import PreFooter from '@/components/pre-footer'
 import Process from '@/components/process'
