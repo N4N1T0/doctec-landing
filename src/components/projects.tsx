@@ -10,13 +10,13 @@ const Projects = () => {
       </div>
       <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-10'>
         {
-          projects.map((project, index) => (
-            <a href={project.link} target='_blank' key={project.label} className={`${index === 0 || index % 2 === 0 ? 'fade-in-left' : 'fade-in-right'} relative col-span-1 space-y-1 md:space-y-3 group`} aria-label={project.label}>
+          projects.map(project => (
+            <a href={project.link} target='_blank' key={project.label} className='relative col-span-1 space-y-1 md:space-y-3 group' aria-label={project.label}>
               <div className='overflow-clip '>
-                <Image src={project.image} alt={project.label} title={project.description} className='group-hover:scale-110 transition-transform group-hover:duration-700 duration-200' />
+                <Image src={project.image} alt={project.label} title={project.description} className='group-hover:scale-110 transition-transform duration-200' />
               </div>
-              <h4 className='text-3xl font-bold group-hover:text-primary transition-colors group-hover:duration-700 duration-200'>{project.label}</h4>
-              <p className='group-hover:text-secondary transition-colors group-hover:duration-700 duration-200 font-light'>{project.description}</p>
+              <h4 className='text-3xl font-bold group-hover:text-primary transition-colors duration-200'>{project.label}</h4>
+              <p className='group-hover:text-secondary transition-colors duration-200 font-light'>{project.description}</p>
             </a>
           ))
         }
