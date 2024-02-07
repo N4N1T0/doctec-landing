@@ -21,29 +21,14 @@ export const DoctecMetatags: Metadata = {
     description: 'somos una agencia de marketing y desarrollo web del futuro | Aplicamos las últimas tendencias en marketing digital y Desarrollo Web',
     url: '',
     siteName: 'Doctec World',
-    images: [
-      {
-        url: 'https://nextjs.org/og.png', // Must be an absolute URL
-        width: 800,
-        height: 600,
-        alt: 'My custom alt',
-      },
-      {
-        url: 'https://nextjs.org/og-alt.png', // Must be an absolute URL
-        width: 1800,
-        height: 1600,
-        alt: 'My custom alt',
-      },
-    ],
     locale: 'es_ES',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Adrian \'Nano\' Alvarez',
+    title: 'Doctec World | Agencia de Marketing y Desarrollo',
     description: 'somos una agencia de marketing y desarrollo web del futuro | Aplicamos las últimas tendencias en marketing digital y Desarrollo Web',
-    creator: '@nextjs',
-    images: ['https://nextjs.org/og.png'], // Must be an absolute URL
+    creator: 'Adrian Alvarez',
   },
    robots: {
     index: true,
