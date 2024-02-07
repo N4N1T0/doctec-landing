@@ -1,24 +1,30 @@
-import Baterias1 from '@/assets/brands/baterias-1.png'
-import Baterias from '@/assets/brands/baterias.png'
-import Baterias2 from '@/assets/brands/baterias-2.png'
-import Leroit from '@/assets/brands/leroit.png'
-import Domus from '@/assets/brands/domus.png'
-import Rebecca from '@/assets/brands/rebecca.png'
-import Salud from '@/assets/brands/salud.png'
-import Termogar from '@/assets/brands/termogar.png'
-import Stylo from '@/assets/brands/stylo.png'
-import Pura from '@/assets/brands/pura.png'
-import Mj from '@/assets/brands/mj.png'
-import Bolsa from '@/assets/brands/bolsa.png'
-import Coques from '@/assets/brands/coquin.png'
-import Enka from '@/assets/brands/enka.png'
-import Guerreros from '@/assets/brands/guerreros.png'
-import Coes from '@/assets/brands/coes.png'
-import Wearfit from '@/assets/brands/wearfit.png'
-import Mimat from '@/assets/brands/mimat.png'
-import Bing from '@/assets/certifications/bing-ads-agencia-marketing-profesional-certificada.jpg'
-import Google from '@/assets/certifications/Partner-RGB-400x382.webp'
-import Analitycs from '@/assets/certifications/GA-certified.webp'
+import {
+  Baterias1,
+  Baterias2,
+  Baterias,
+  Leroit,
+  Domus,
+  Rebecca,
+  Salud,
+  Termogar,
+  Stylo,
+  Pura,
+  Mj,
+  Bolsa,
+  Coques,
+  Coes,
+  Enka,
+  Guerreros,
+  Wearfit,
+  Mimat,
+  ThermogarShowcase,
+  StyloShowcase,
+  LeroitShowcase,
+  Wear2FitShowcase,
+  Alberto,
+  Maria
+} from '@/assets'
+import { Development, Design, Seo, Branding, Marketing, Comunity } from '@/components/shared/icons'
 
 export const navItems = [
   {
@@ -26,12 +32,12 @@ export const navItems = [
     route: '#nosotros',
   },
   {
-    label: 'Servivios',
-    route: '#services',
+    label: 'Proyectos',
+    route: '#proyectos',
   },
   {
-    label: 'Exitos',
-    route: '#exitos',
+    label: 'Servicios',
+    route: '#servicios',
   },
   {
     label: 'Testimonios',
@@ -107,7 +113,7 @@ export const brands = [
   {
     label: 'Coes',
     image: Coes
-  }, 
+  },
   {
     label: 'Wearfit',
     image: Wearfit
@@ -118,25 +124,11 @@ export const brands = [
   }
 ]
 
-export const certifications = [
-  {
-    label: 'Bing Ads Certified Professional',
-    image: Bing,
-  },
-  {
-    label: 'Google Partner',
-    image: Google,
-  },
-  {
-    label: 'Google Analitycs Certified Professional',
-    image: Analitycs
-  }
-]
-
 export const servicios = [
   {
     label: 'Desarrollo Web',
-    description: 'El desarrollo de una página web de tu marca es muy importante, ya que es necesario para captar más clientes y que estos puedan hacer las comprar de tus productos mediante una tienda online.',
+    description: 'Desarrollo de experiencias web para entrar al mundo digital',
+    image: <Development />,
     package: [
       {
         label: 'Pagina Web Basica',
@@ -149,7 +141,7 @@ export const servicios = [
         projects: '10'
       },
       {
-        label:'Página web personalizada',
+        label: 'Página web personalizada',
         description: 'Tenemos un plan personalizado para la creación de tu web con muchas herramientas a tu medida.',
         projects: '6'
       }
@@ -157,8 +149,9 @@ export const servicios = [
   },
   {
     label: 'Community Manager',
-    description: 'Gestión profesional de comunidades online para potenciar tu interacción y presencia digital.',
-     package: [
+    description: 'Gestión profesional de comunidades online para potenciar tu interacción y presencia.',
+    image: <Comunity />,
+    package: [
       {
         label: 'Community Manager básico',
         description: 'Tenemos un plan básico para gestionar las redes sociales de tu marca',
@@ -170,7 +163,7 @@ export const servicios = [
         projects: '4'
       },
       {
-        label:'Community Manager premium',
+        label: 'Community Manager premium',
         description: 'Tenemos un plan personalizado para gestionar las redes sociales de tu marca con mucho contenido para generar  más ventas.',
         projects: '3'
       }
@@ -179,6 +172,7 @@ export const servicios = [
   {
     label: 'Marketing Digital',
     description: 'Estrategias digitales efectivas para destacar y conectar con tu audiencia objetivo.',
+    image: <Marketing />,
     package: [
       {
         label: 'Marketing D. Básico',
@@ -191,7 +185,7 @@ export const servicios = [
         projects: '9'
       },
       {
-        label:'Marketing D. Personalizado',
+        label: 'Marketing D. Personalizado',
         description: 'Tenemos un plan personalizado con las mejores opciones y estrategias de ventas para tu marca.',
         projects: '7'
       }
@@ -200,6 +194,7 @@ export const servicios = [
   {
     label: 'Diseño Gráfico',
     description: 'Creación visual impactante que eleva tu marca y comunica tu identidad única.',
+    image: <Design />,
     package: [
       {
         label: 'Diseño gráfico estándar',
@@ -216,7 +211,8 @@ export const servicios = [
   {
     label: 'Branding',
     description: 'Construcción de marcas sólidas que cautivan y establecen conexiones duraderas.',
-     package: [
+    image: <Branding />,
+    package: [
       {
         label: 'Branding básico',
         description: 'Tenemos un plan básico para que definas y construyas tu marca.',
@@ -228,7 +224,7 @@ export const servicios = [
         projects: '9'
       },
       {
-        label:'Branding premium',
+        label: 'Branding premium',
         description: 'enemos un plan premium para que definas y construyas tu marca con el mejor asesoramiento.',
         projects: '7'
       }
@@ -237,6 +233,7 @@ export const servicios = [
   {
     label: 'SEO',
     description: 'Optimización para motores de búsqueda que impulsa tu visibilidad en línea.',
+    image: <Seo />,
     package: [
       {
         label: 'SEO estándar',
@@ -269,6 +266,72 @@ export const key = [
 
 export const projects = [
   {
-    
+    label: 'Termogar',
+    description: 'Expertos En Climatización',
+    image: ThermogarShowcase,
+    link: 'https://termogar.es/'
+  },
+  {
+    label: 'Stylo',
+    description: 'Relojeria y Joyeria',
+    image: StyloShowcase,
+    link: 'https://stylorelojeria.es/'
+  },
+  {
+    label: 'Leroit',
+    description: 'Bufete de Abogados',
+    image: LeroitShowcase,
+    link: 'https://ledroitabogados.es/'
+  },
+  {
+    label: 'Wear 2 Fit',
+    description: 'Articulos Deportivos',
+    image: Wear2FitShowcase,
+    link: 'https://wear2fit.com/es/'
   }
+]
+
+export const process = [
+  {
+    label: 'Investigación y planificación',
+    description: 'La hoja de ruta es fundamental para recopilar información, requisitos y otros datos necesarios para tomar decisiones informadas más adelante.'
+  },
+  {
+    label: 'Maqueta',
+    description: 'Crear una maqueta es el paso del proceso de desarrollo que más gente reconoce: es la parte más visual del proceso Bocetos en profundidad y lluvia de ideas.'
+  },
+  {
+    label: 'Construccion',
+    description: 'Implementar la solución (a menudo con la ayuda de otros profesionales como programadores, impresores o fabricantes)Revisar la solución a medida que surjan problemas técnicos.'
+  }
+]
+
+export const testimonials = [
+  {
+    highlight: '"Estoy deseando volver a trabajar con el Doctec World."',
+    testimonial: 'Durante cinco años, hemos colaborado estrechamente con esta empresa para mejorar nuestro ecommerce y fortalecer nuestro posicionamiento en buscadores. Gracias a su dedicación y experiencia, hemos logrado objetivos sobresalientes. Esta asociación es invaluable y estamos emocionados por continuar prosperando juntos en el futuro',
+    client: {
+      name: 'Alberto Rodriguez',
+      position: 'Direcctor General',
+      picture: Alberto,
+      company: Termogar,
+    }
+  },
+  {
+    highlight: '"Anticipando el próximo capítulo de colaboración con Doctec World".',
+    testimonial: '"En nuestra asociación con la red de clínicas, hemos mejorado nuestra presencia digital y consolidado nuestra identidad de marca mediante estrategias de marketing digital. Esta colaboración ha sido esencial para alcanzar logros destacados, y esperamos seguir avanzando juntos en el futuro".',
+    client: {
+      name: 'Maria Begoña Ramirez',
+      position: 'Direcctora de Marketing',
+      picture: Maria,
+      company: Salud,
+    }
+  }
+]
+
+export const preFooterStats = [
+  "Marketing vanguardia",
+  "Desarrollo innovador",
+  "Social media interactivo",
+  "Diseños adaptables"
 ]
