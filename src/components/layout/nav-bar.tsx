@@ -1,4 +1,4 @@
-import Logo from '@/assets/images/Logo Negativo.png'
+import { Logo } from '@/assets/'
 import Image from 'next/image'
 import { Button } from '../ui/button'
 import { navItems } from '@/constants/index'

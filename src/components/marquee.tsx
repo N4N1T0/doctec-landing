@@ -39,7 +39,7 @@ const Marquee = ({ withBbrands = true }: MarqueeProps) => {
             completeServices.map((servicio, index) => (
               <li key={servicio} className='mr-10 flex-shrink-0 p-5 flex gap-3 justify-center items-center'>
                 <small>0{index + 1}</small>
-                <h6 className='text-3xl font-light'>{servicio}</h6>
+                <h2 className='text-3xl font-light'>{servicio}</h2>
               </li>
             ))
           }

@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <p className='flex-[30%] text-lg font-light'>Doctec World es una distinguida agencia de Marketing y Desarrollo Web con sede en Marbella, conocida por nuestro compromiso de crear experiencias digitales excepcionales. <br /><br /> Desde 2017, Doctec World ha estado remodelando los negocios en linea con un diseño de primer nivel y el poder de las nuevas tecnicas de Marketing Digital.</p>
       </div>
-      <Image src={AboutPic} alt='Una toma area de una mesa de reuniones' className='w-full h-[620px] object-cover' />
+      <Image src={AboutPic} alt='Una toma area de una mesa de reuniones' className='w-full h-[620px] object-cover' height={620} />
       <div className='w-full flex flex-col md:flex-row justify-between items-center px-5 mx-auto max-w-[1600px] gap-5 md:gap-0'>
         <h3 className='uppercase text-2xl flex-[30%]'>CONOCE NUESTROS DATOS CLAVE</h3>
         <ul className='flex-[30%] flex justify-between items-center'>

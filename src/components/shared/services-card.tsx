@@ -29,7 +29,7 @@ const ServicesCard = ({ service }: ServicesCardProps) => {
       </div>
       <div className='text-left space-y-3 group-hover:text-background'>
         <h4 className='uppercase text-xl'>{service.label}</h4>
-        <p className='text-foreground/50 group-hover:text-background'>{service.description}</p>
+        <p className='text-foreground/70 group-hover:text-background'>{service.description}</p>
       </div>
     </div>
   )

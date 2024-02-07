@@ -46,7 +46,7 @@ export const DoctecMetatags: Metadata = {
     images: ['https://nextjs.org/og.png'], // Must be an absolute URL
   },
    robots: {
-    index: false,
+    index: true,
     follow: true,
     nocache: true,
     googleBot: {
