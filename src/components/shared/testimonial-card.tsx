@@ -10,14 +10,13 @@ interface TestimonialCardProps {
       name: string
       position: string
       picture: StaticImageData
-      company: StaticImageData
     }
   }
 }
 
 const TestimonialCard = ({ testimonial }: TestimonialCardProps) => {
   return (
-    <li key={testimonial.client.name} className='p-10 bg-foreground text-background space-y-7 flex-1 flex-shrink-0 flex-grow relative'>
+    <div className='p-10 bg-foreground text-background space-y-7 relative'>
       <h4 className='text-3xl'>{testimonial.highlight}</h4>
       <p className='font-light text-black'>{testimonial.testimonial}</p>
       <hr className='border-primary border-[0.7px]' />
@@ -29,10 +28,9 @@ const TestimonialCard = ({ testimonial }: TestimonialCardProps) => {
             <p className='font-light'>{testimonial.client.position}</p>
           </div>
         </div>
-        <Image src={testimonial.client.company} alt={testimonial.client.name} width={100} height={50} className='bg-primary p-3 md:block hidden' />
       </div>
-      <Quotes className='absolute -top-12 right-5' />
-    </li>
+      <Quotes className='absolute -top-3 right-3 hidden md:block' />
+    </div>
   )
 }
 

@@ -9,7 +9,7 @@ const PreFooter = () => {
       <h3 className='uppercase text-4xl md:text-5xl md:w-2/3 px-5'>Soluciones innovadoras de web, marketing y branding</h3>
       <p>Únase hoy mismo y experimente la diferencia. No pierda la oportunidad de transformar su negocio: ¡crezcamos juntos!</p>
       <Button className='bg-background text-foreground p-4 2xl:p-7 2xl:text-lg'>Contacta con nosotros</Button>
-      <ul className='md:w-2/3 flex justify-between items-center flex-col md:flex-row'>
+      <ul className='md:w-2/3 flex justify-between items-center flex-col md:flex-row gap-2 md:gap-0'>
         {preFooterStats.map(stat => (
           <li key={stat} className='flex gap-2 justify-center items-center'>
             <Check />

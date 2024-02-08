@@ -19,10 +19,14 @@ import {
   Mimat,
   ThermogarShowcase,
   StyloShowcase,
-  LeroitShowcase,
+  ClinicasShowcase,
   Wear2FitShowcase,
   Alberto,
-  Maria
+  Maria,
+  Oscar,
+  Hector,
+  Rebecca2,
+  Encarna
 } from '@/assets'
 import { Development, Design, Seo, Branding, Marketing, Comunity } from '@/components/shared/icons'
 
@@ -278,10 +282,10 @@ export const projects = [
     link: 'https://stylorelojeria.es/'
   },
   {
-    label: 'Leroit',
-    description: 'Bufete de Abogados',
-    image: LeroitShowcase,
-    link: 'https://ledroitabogados.es/'
+    label: 'Clínicas Salud Método Avanzado Madrid',
+    description: 'Centro Medico Integral',
+    image: ClinicasShowcase,
+    link: 'https://saludmetodoavanzado.com/'
   },
   {
     label: 'Wear 2 Fit',
@@ -311,20 +315,54 @@ export const testimonials = [
     highlight: '"Estoy deseando volver a trabajar con el Doctec World."',
     testimonial: 'Durante cinco años, hemos colaborado estrechamente con esta empresa para mejorar nuestro ecommerce y fortalecer nuestro posicionamiento en buscadores. Gracias a su dedicación y experiencia, hemos logrado objetivos sobresalientes. Esta asociación es invaluable y estamos emocionados por continuar prosperando juntos en el futuro',
     client: {
-      name: 'Alberto Rodriguez',
-      position: 'Direcctor General',
-      picture: Alberto,
-      company: Termogar,
+      name: 'Alvaro perez Muñoz',
+      position: 'CEO de Termogar',
+      picture: Alberto
     }
   },
   {
     highlight: '"Anticipando el próximo capítulo de colaboración con Doctec World".',
     testimonial: '"En nuestra asociación con la red de clínicas, hemos mejorado nuestra presencia digital y consolidado nuestra identidad de marca mediante estrategias de marketing digital. Esta colaboración ha sido esencial para alcanzar logros destacados, y esperamos seguir avanzando juntos en el futuro".',
     client: {
-      name: 'Maria Begoña Ramirez',
-      position: 'Direcctora de Marketing',
-      picture: Maria,
-      company: Salud,
+      name: 'María José Barba',
+      position: 'CEO de MJ Esthetic Advanced',
+      picture: Maria
+    }
+  },
+  {
+    highlight: '"La calidad y profesionalismo de Doctec World nos han llevado al siguiente nivel."',
+    testimonial: '"En Clinicas Salud, confiamos en la experiencia de Doctec World para mejorar nuestra presencia en línea y ampliar nuestro alcance. Desde 2019, han sido un socio confiable en nuestro viaje hacia el éxito digital. Esperamos seguir colaborando en proyectos emocionantes en el futuro".',
+    client: {
+      name: 'Oscar Guerrero Soriano',
+      position: 'Administrador Clinicas Salud',
+      picture: Oscar,
+    }
+  },
+  {
+    highlight: '"Gracias a Doctec World, hemos transformado nuestra presencia en línea".',
+    testimonial: '"Como administrador de Gimnasio Active Fitness Sotogrande, confío en la experiencia de Doctec World para llevar nuestra presencia digital al siguiente nivel. Desde 2022, han sido fundamentales para nuestro éxito en línea y esperamos seguir creciendo juntos".',
+    client: {
+      name: 'Hector Natalizio',
+      position: 'Gerente de Nataltec Instalaciones Técnicas SL',
+      picture: Hector,
+    }
+  },
+  {
+    highlight: '"Doctec World ha sido un socio invaluable en nuestro viaje hacia una presencia digital destacada".',
+    testimonial: '"Como directora de la Escuela Emoción en Ebullición, he confiado en Doctec World para mejorar nuestra visibilidad en línea desde 2021. Su enfoque estratégico y su dedicación han sido cruciales para nuestro éxito digital. Estoy emocionada por las futuras oportunidades de colaboración".',
+    client: {
+      name: 'Rebecca García-Monzón Moore',
+      position: 'Directora de la Escuela Emoción en Ebullición',
+      picture: Rebecca2,
+    }
+  },
+  {
+    highlight: '"Doctec World ha sido nuestro aliado desde el principio, llevando nuestra marca a nuevas alturas".',
+    testimonial: '"Desde 2020, Doctec World ha sido fundamental para el crecimiento y la expansión de nuestra empresa. Como gerente de Distribuidora Enka Estética Profesional - Málaga, confío plenamente en su experiencia y profesionalismo. ¡Espero con ansias lo que el futuro nos depara juntos!"',
+    client: {
+      name: 'Encarna Castillo',
+      position: 'Gerente de Distribuidora Enka Estética Profesional - Málaga',
+      picture: Encarna,
     }
   }
 ]

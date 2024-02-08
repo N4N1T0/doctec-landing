@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className='border-primary border-[0.7px] w-full' />
-      <div>Copyright ©️2023 | Doctor Tecnológico | DOCTECWORLD</div>
+      <div>Copyright ©️2024 | Doctor Tecnológico | DOCTECWORLD</div>
     </footer>
   )
 }
