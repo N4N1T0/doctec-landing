@@ -16,7 +16,7 @@ const Hero = () => {
         <h2 className='text-center md:text-lg 2xl:text-xl px-5 font-light'>{t('h2')}</h2>
         <div className='gap-4 md:gap-10 flex flex-col md:flex-row'>
           <Button className='text-background p-4 2xl:p-7 2xl:text-lg' asChild><a href='tel:+34-63-411-30-14'>{t('button-1')}</a></Button>
-          <Button className='text-background p-4 2xl:p-7 2xl:text-lg' asChild><a href='#Proyectos'>{t('button-2')}</a></Button>
+          <Button className='text-background p-4 2xl:p-7 2xl:text-lg' asChild><a href='#proyectos'>{t('button-2')}</a></Button>
         </div>
       </div>
       <div

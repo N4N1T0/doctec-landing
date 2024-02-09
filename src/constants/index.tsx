@@ -142,34 +142,34 @@ export const servicios = {
   'es': [
     {
       label: 'Desarrollo Web',
-      description: 'Desarrollo de experiencias web para entrar al mundo digital',
+      description: 'Desarrollo de experiencias web para ingresar al mundo digital',
       image: <Development />,
       package: [
         {
-          label: 'Pagina Web Basica',
-          description: 'Tenemos un plan básico para la creación de tu web. Es recomendable si recién está empezando a digitalizarse tu negocio',
+          label: 'Página Web Básica',
+          description: 'Tenemos un plan básico para la creación de tu sitio web. Es recomendable si estás comenzando a digitalizar tu negocio.',
           projects: '7'
         },
         {
           label: 'Página web estándar',
-          description: 'Tenemos un plan estándar para la creación de tu web con diseños más sofisticados.',
+          description: 'Tenemos un plan estándar para la creación de tu sitio web con diseños más sofisticados.',
           projects: '10'
         },
         {
           label: 'Página web personalizada',
-          description: 'Tenemos un plan personalizado para la creación de tu web con muchas herramientas a tu medida.',
+          description: 'Tenemos un plan personalizado para la creación de tu sitio web con muchas herramientas adaptadas a tus necesidades.',
           projects: '6'
         }
       ]
     },
     {
       label: 'Community Manager',
-      description: 'Gestión profesional de comunidades online para potenciar tu interacción y presencia.',
+      description: 'Gestión profesional de comunidades en línea para potenciar tu interacción y presencia.',
       image: <Comunity />,
       package: [
         {
           label: 'Community Manager básico',
-          description: 'Tenemos un plan básico para gestionar las redes sociales de tu marca',
+          description: 'Tenemos un plan básico para gestionar las redes sociales de tu marca.',
           projects: '3'
         },
         {
@@ -179,7 +179,7 @@ export const servicios = {
         },
         {
           label: 'Community Manager premium',
-          description: 'Tenemos un plan personalizado para gestionar las redes sociales de tu marca con mucho contenido para generar  más ventas.',
+          description: 'Tenemos un plan personalizado para gestionar las redes sociales de tu marca con mucho contenido para generar más ventas.',
           projects: '3'
         }
       ]
@@ -190,17 +190,17 @@ export const servicios = {
       image: <Marketing />,
       package: [
         {
-          label: 'Marketing D. Básico',
+          label: 'Marketing Digital Básico',
           description: 'Tenemos un plan básico con buenas opciones para comenzar a crear estrategias de ventas para tu marca.',
           projects: '8'
         },
         {
-          label: 'Marketing D. Premium',
+          label: 'Marketing Digital Premium',
           description: 'Tenemos un plan premium con buenas opciones y estrategias de ventas para tu marca.',
           projects: '9'
         },
         {
-          label: 'Marketing D. Personalizado',
+          label: 'Marketing Digital Personalizado',
           description: 'Tenemos un plan personalizado con las mejores opciones y estrategias de ventas para tu marca.',
           projects: '7'
         }
@@ -230,17 +230,17 @@ export const servicios = {
       package: [
         {
           label: 'Branding básico',
-          description: 'Tenemos un plan básico para que definas y construyas tu marca.',
+          description: 'Tenemos un plan básico para definir y construir tu marca.',
           projects: '7'
         },
         {
           label: 'Branding estándar',
-          description: 'Tenemos un plan estándar para que definas y construyas tu marca. ',
+          description: 'Tenemos un plan estándar para definir y construir tu marca.',
           projects: '9'
         },
         {
           label: 'Branding premium',
-          description: 'enemos un plan premium para que definas y construyas tu marca con el mejor asesoramiento.',
+          description: 'Tenemos un plan premium para definir y construir tu marca con el mejor asesoramiento.',
           projects: '7'
         }
       ]
@@ -252,12 +252,12 @@ export const servicios = {
       package: [
         {
           label: 'SEO estándar',
-          description: 'Tenemos un plan estándar de SEO para atraer tráfico a tu web.',
+          description: 'Tenemos un plan estándar de SEO para atraer tráfico a tu sitio web.',
           projects: '14'
         },
         {
           label: 'SEO personalizado',
-          description: 'Tenemos un plan personalizado de SEO para atraer tráfico de calidad a tu web, es decir, obtener la mayor cantidad de visitas.',
+          description: 'Tenemos un plan personalizado de SEO para atraer tráfico de calidad a tu sitio web, es decir, obtener la mayor cantidad de visitas.',
           projects: '20'
         }
       ]
@@ -463,11 +463,11 @@ export const process = {
     },
     {
       label: 'Maqueta',
-      description: 'Crear una maqueta es el paso del proceso de desarrollo que más gente reconoce: es la parte más visual del proceso Bocetos en profundidad y lluvia de ideas.'
+      description: 'Crear una maqueta es el paso del proceso de desarrollo que más gente reconoce: es la parte más visual del proceso. Bocetos en profundidad y lluvia de ideas.'
     },
     {
-      label: 'Construccion',
-      description: 'Implementar la solución (a menudo con la ayuda de otros profesionales como programadores, impresores o fabricantes)Revisar la solución a medida que surjan problemas técnicos.'
+      label: 'Construcción',
+      description: 'Implementar la solución (a menudo con la ayuda de otros profesionales como programadores, impresores o fabricantes). Revisar la solución a medida que surjan problemas técnicos.'
     }
   ],
   'en': [
@@ -490,17 +490,17 @@ export const process = {
 export const testimonials = {
   'es': [
     {
-      highlight: '"Estoy deseando volver a trabajar con el Doctec World."',
-      testimonial: 'Durante cinco años, hemos colaborado estrechamente con esta empresa para mejorar nuestro ecommerce y fortalecer nuestro posicionamiento en buscadores. Gracias a su dedicación y experiencia, hemos logrado objetivos sobresalientes. Esta asociación es invaluable y estamos emocionados por continuar prosperando juntos en el futuro',
+      highlight: '"Estoy deseando volver a trabajar con Doctec World."',
+      testimonial: 'Durante cinco años, hemos colaborado estrechamente con esta empresa para mejorar nuestro ecommerce y fortalecer nuestro posicionamiento en buscadores. Gracias a su dedicación y experiencia, hemos logrado objetivos sobresalientes. Esta asociación es invaluable y estamos emocionados por continuar prosperando juntos en el futuro.',
       client: {
-        name: 'Alvaro perez Muñoz',
+        name: 'Álvaro Pérez Muñoz',
         position: 'CEO de Termogar',
         picture: Alberto
       }
     },
     {
-      highlight: '"Anticipando el próximo capítulo de colaboración con Doctec World".',
-      testimonial: '"En nuestra asociación con la red de clínicas, hemos mejorado nuestra presencia digital y consolidado nuestra identidad de marca mediante estrategias de marketing digital. Esta colaboración ha sido esencial para alcanzar logros destacados, y esperamos seguir avanzando juntos en el futuro".',
+      highlight: '"Anticipando el próximo capítulo de colaboración con Doctec World."',
+      testimonial: '"En nuestra asociación con la red de clínicas, hemos mejorado nuestra presencia digital y consolidado nuestra identidad de marca mediante estrategias de marketing digital. Esta colaboración ha sido esencial para alcanzar logros destacados, y esperamos seguir avanzando juntos en el futuro."',
       client: {
         name: 'María José Barba',
         position: 'CEO de MJ Esthetic Advanced',
@@ -509,41 +509,42 @@ export const testimonials = {
     },
     {
       highlight: '"La calidad y profesionalismo de Doctec World nos han llevado al siguiente nivel."',
-      testimonial: '"En Clinicas Salud, confiamos en la experiencia de Doctec World para mejorar nuestra presencia en línea y ampliar nuestro alcance. Desde 2019, han sido un socio confiable en nuestro viaje hacia el éxito digital. Esperamos seguir colaborando en proyectos emocionantes en el futuro".',
+      testimonial: '"En Clínicas Salud, confiamos en la experiencia de Doctec World para mejorar nuestra presencia en línea y ampliar nuestro alcance. Desde 2019, han sido un socio confiable en nuestro viaje hacia el éxito digital. Esperamos seguir colaborando en proyectos emocionantes en el futuro."',
       client: {
-        name: 'Oscar Guerrero Soriano',
-        position: 'Administrador Clinicas Salud',
-        picture: Oscar,
+        name: 'Óscar Guerrero Soriano',
+        position: 'Administrador de Clínicas Salud',
+        picture: Oscar
       }
     },
     {
-      highlight: '"Gracias a Doctec World, hemos transformado nuestra presencia en línea".',
-      testimonial: '"Como administrador de Gimnasio Active Fitness Sotogrande, confío en la experiencia de Doctec World para llevar nuestra presencia digital al siguiente nivel. Desde 2022, han sido fundamentales para nuestro éxito en línea y esperamos seguir creciendo juntos".',
+      highlight: '"Gracias a Doctec World, hemos transformado nuestra presencia en línea."',
+      testimonial: '"Como administrador de Gimnasio Active Fitness Sotogrande, confío en la experiencia de Doctec World para llevar nuestra presencia digital al siguiente nivel. Desde 2022, han sido fundamentales para nuestro éxito en línea y esperamos seguir creciendo juntos."',
       client: {
-        name: 'Hector Natalizio',
+        name: 'Héctor Natalizio',
         position: 'Gerente de Nataltec Instalaciones Técnicas SL',
-        picture: Hector,
+        picture: Hector
       }
     },
     {
-      highlight: '"Doctec World ha sido un socio invaluable en nuestro viaje hacia una presencia digital destacada".',
-      testimonial: '"Como directora de la Escuela Emoción en Ebullición, he confiado en Doctec World para mejorar nuestra visibilidad en línea desde 2021. Su enfoque estratégico y su dedicación han sido cruciales para nuestro éxito digital. Estoy emocionada por las futuras oportunidades de colaboración".',
+      highlight: '"Doctec World ha sido un socio invaluable en nuestro viaje hacia una presencia digital destacada."',
+      testimonial: '"Como directora de la Escuela Emoción en Ebullición, he confiado en Doctec World para mejorar nuestra visibilidad en línea desde 2021. Su enfoque estratégico y su dedicación han sido cruciales para nuestro éxito digital. Estoy emocionada por las futuras oportunidades de colaboración."',
       client: {
         name: 'Rebecca García-Monzón Moore',
         position: 'Directora de la Escuela Emoción en Ebullición',
-        picture: Rebecca2,
+        picture: Rebecca2
       }
     },
     {
-      highlight: '"Doctec World ha sido nuestro aliado desde el principio, llevando nuestra marca a nuevas alturas".',
+      highlight: '"Doctec World ha sido nuestro aliado desde el principio, llevando nuestra marca a nuevas alturas."',
       testimonial: '"Desde 2020, Doctec World ha sido fundamental para el crecimiento y la expansión de nuestra empresa. Como gerente de Distribuidora Enka Estética Profesional - Málaga, confío plenamente en su experiencia y profesionalismo. ¡Espero con ansias lo que el futuro nos depara juntos!"',
       client: {
         name: 'Encarna Castillo',
         position: 'Gerente de Distribuidora Enka Estética Profesional - Málaga',
-        picture: Encarna,
+        picture: Encarna
       }
     }
-  ],
+  ]
+  ,
   'en': [
     {
       highlight: '"Looking forward to working with Doctec World again."',
