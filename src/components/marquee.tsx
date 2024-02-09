@@ -10,7 +10,7 @@ interface MarqueeProps {
 
 const Marquee = ({ withBbrands = true }: MarqueeProps) => {
   const t = useTranslations('marquee')
-  const locale: Locale = useLocale();
+  const locale = useLocale() as Locale
 
   return (
     <div

@@ -6,7 +6,7 @@ import { Locale } from '@/i18n';
 
 const Servicios = () => {
   const t = useTranslations('servicios')
-  const locale: Locale = useLocale();
+  const locale = useLocale() as Locale
 
   return (
     <section id='servicios' className='flex flex-col md:flex-row justify-between items-start max-w-[1600px] mx-auto px-2 md:px-10 gap-10 md:gap-0'>

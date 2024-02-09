@@ -6,7 +6,7 @@ import { useLocale } from 'next-intl';
 import { Locale } from '@/i18n';
 
 const Footer = () => {
-  const locale: Locale = useLocale()
+  const locale = useLocale() as Locale
 
   return (
     <footer className='flex flex-col justify-center text-center items-center max-w-[1600px] mx-auto p-10 md:p-20 gap-8 bg-foreground text-background my-10'>

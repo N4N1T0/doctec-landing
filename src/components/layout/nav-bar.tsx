@@ -8,7 +8,7 @@ import { useLocale } from 'next-intl'
 import { Locale } from '@/i18n'
 
 const NavBar = () => {
-  const locale: Locale = useLocale()
+  const locale = useLocale() as Locale
 
   return (
     <header className='w-full flex justify-between items-center p-5 2xl:p-10 absolute z-40'>

@@ -4,7 +4,7 @@ import LocaleSwitcherSelect from './locale-switch-select';
 
 export default function LocaleSwitcher() {
   const t = useTranslations('LocaleSwitcher');
-  const locale: Locale = useLocale();
+  const locale = useLocale() as Locale
 
   return (
     <LocaleSwitcherSelect defaultValue={locale} label={t('label')}>

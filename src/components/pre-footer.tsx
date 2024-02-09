@@ -7,7 +7,7 @@ import { Locale } from '@/i18n'
 
 const PreFooter = () => {
   const t = useTranslations('prefooter')
-  const locale: Locale = useLocale()
+  const locale = useLocale() as Locale
 
   return (
     <section className='flex flex-col justify-center text-center items-center max-w-[1600px] mx-auto px-10 py-10 md:py-20 gap-8 bg-primary/80 text-background'>

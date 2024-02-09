@@ -6,7 +6,7 @@ import { Locale } from '@/i18n';
 
 const About = () => {
   const t = useTranslations('about')
-  const locale: Locale = useLocale();
+  const locale = useLocale() as Locale
 
   return (
     <section id='nosotros' className='space-y-20'>

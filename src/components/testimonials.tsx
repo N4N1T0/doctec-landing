@@ -12,7 +12,7 @@ import { Locale } from '@/i18n'
 
 const Testimonials = () => {
   const t = useTranslations('testimonials')
-  const locale: Locale = useLocale()
+  const locale = useLocale() as Locale
 
   return (
     <section id='testimonios' className='flex flex-col justify-center items-center max-w-[1600px] mx-auto px-2 md:px-10 gap-16' >
