@@ -8,6 +8,7 @@ import Courtain from '@/components/courtain';
 import { DoctecMetatags } from '@/components/layout/metatag-seo';
 import { WebVitals } from '@/components/layout/web-vitals';
 import { locales } from '@/i18n';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -24,6 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  unstable_setRequestLocale(locale);
   return (
     <html lang={locale}>
       <body className={`${openSans.className} relative`}>

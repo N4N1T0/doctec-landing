@@ -6,10 +6,11 @@ import Process from '@/components/process'
 import Projects from '@/components/projects'
 import Servicios from '@/components/servicios'
 import Testimonials from '@/components/testimonials'
+import { unstable_setRequestLocale } from 'next-intl/server';
 
+export default function Home({ params: { locale } }: { params: { locale: string } }) {
+  unstable_setRequestLocale(locale);
 
-
-export default function Home() {
   return (
     <main className='overflow-x-clip space-y-32'>
       <Hero />
