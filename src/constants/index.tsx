@@ -33,29 +33,29 @@ import { Development, Design, Seo, Branding, Marketing, Comunity } from '@/compo
 export const navItems = [
   {
     label: {
-      "es": 'Nosotros',
-      "en": 'About us'
+      'es': 'Nosotros',
+      'en': 'About us'
     },
     route: '#nosotros',
   },
   {
     label: {
-      "es": 'Proyectos',
-      "en": 'Projects'
+      'es': 'Proyectos',
+      'en': 'Projects'
     },
     route: '#proyectos',
   },
   {
     label: {
-      "es": 'Servicios',
-      "en": 'Services'
+      'es': 'Servicios',
+      'en': 'Services'
     },
     route: '#servicios',
   },
   {
     label: {
-      "es": 'Testimonios',
-      "en": 'Testimonials'
+      'es': 'Testimonios',
+      'en': 'Testimonials'
     },
     route: '#testimonios',
   },
@@ -139,7 +139,7 @@ export const brands = [
 
 // Completed Translation
 export const servicios = {
-  "es": [
+  'es': [
     {
       label: 'Desarrollo Web',
       description: 'Desarrollo de experiencias web para entrar al mundo digital',
@@ -263,7 +263,7 @@ export const servicios = {
       ]
     }
   ],
-  "en": [
+  'en': [
     {
       label: 'Web Development',
       description: 'Development of web experiences to enter the digital world.',
@@ -456,7 +456,7 @@ export const projects = [
 
 // Completed Translation
 export const process = {
-  "es": [
+  'es': [
     {
       label: 'Investigación y planificación',
       description: 'La hoja de ruta es fundamental para recopilar información, requisitos y otros datos necesarios para tomar decisiones informadas más adelante.'
@@ -470,7 +470,7 @@ export const process = {
       description: 'Implementar la solución (a menudo con la ayuda de otros profesionales como programadores, impresores o fabricantes)Revisar la solución a medida que surjan problemas técnicos.'
     }
   ],
-  "en": [
+  'en': [
     {
       label: 'Research and Planning',
       description: 'The roadmap is crucial for gathering information, requirements, and other necessary data to make informed decisions later.'
@@ -488,7 +488,7 @@ export const process = {
 
 // Completed Translation
 export const testimonials = {
-  "es": [
+  'es': [
     {
       highlight: '"Estoy deseando volver a trabajar con el Doctec World."',
       testimonial: 'Durante cinco años, hemos colaborado estrechamente con esta empresa para mejorar nuestro ecommerce y fortalecer nuestro posicionamiento en buscadores. Gracias a su dedicación y experiencia, hemos logrado objetivos sobresalientes. Esta asociación es invaluable y estamos emocionados por continuar prosperando juntos en el futuro',
@@ -544,7 +544,7 @@ export const testimonials = {
       }
     }
   ],
-  "en": [
+  'en': [
     {
       highlight: '"Looking forward to working with Doctec World again."',
       testimonial: 'For five years, we have closely collaborated with this company to enhance our ecommerce and strengthen our search engine positioning. Thanks to their dedication and expertise, we have achieved outstanding goals. This partnership is invaluable, and we are excited to continue thriving together in the future.',
@@ -605,13 +605,13 @@ export const testimonials = {
 
 // Completed Translation
 export const preFooterStats = {
-  "es": [
+  'es': [
     'Marketing vanguardia',
     'Desarrollo innovador',
     'Social media interactivo',
     'Diseños adaptables'
   ],
-  "en": [
+  'en': [
     'Marketing Vanguard',
     'Innovative Development',
     'Interactive Social Media',

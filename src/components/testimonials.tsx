@@ -5,7 +5,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel"
+} from '@/components/ui/carousel'
 import TestimonialCard from './shared/testimonial-card'
 import { useLocale, useTranslations } from 'next-intl'
 
@@ -18,14 +18,14 @@ const Testimonials = () => {
       <h3 className='uppercase text-2xl text-center'>{t('h3')}</h3>
       <Carousel
         opts={{
-          align: "start",
+          align: 'start',
           loop: true,
         }}
         className='w-full'
       >
         <CarouselContent>
           {testimonials[locale].map(testimonial => (
-            <CarouselItem key={testimonial.client.name} className="md:basis-1/2 2xl:basis-1/3 grow flex-shrink-0">
+            <CarouselItem key={testimonial.client.name} className='md:basis-1/2 2xl:basis-1/3 grow flex-shrink-0'>
               <TestimonialCard testimonial={testimonial} />
             </CarouselItem>
           ))}

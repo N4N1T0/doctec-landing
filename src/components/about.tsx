@@ -5,7 +5,7 @@ import { useTranslations, useLocale } from 'next-intl';
 
 const About = () => {
   const t = useTranslations('about')
-  const locale: "es" | "en" = useLocale();
+  const locale = useLocale();
 
   return (
     <section id='nosotros' className='space-y-20'>

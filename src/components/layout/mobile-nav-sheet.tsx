@@ -30,7 +30,7 @@ const MobileNavSheet = () => {
             </li>
           ))}
           <li>
-            <Button className='text-background p-5'>{locale === 'en' ? "Contact" : "Contactar"}</Button>
+            <Button className='text-background p-5'>{locale === 'en' ? 'Contact' : 'Contactar'}</Button>
           </li>
           <li>
             <LocaleSwitcher />

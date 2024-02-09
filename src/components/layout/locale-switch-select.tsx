@@ -33,9 +33,9 @@ export default function LocaleSwitcherSelect({
         isPending && 'transition-opacity [&:disabled]:opacity-30'
       )}
     >
-      <p className="sr-only">{label}</p>
+      <p className='sr-only'>{label}</p>
       <select
-        className="inline-flex appearance-none bg-background px-6 py-2 border-[1px] border-primary text-sm space-y-3"
+        className='inline-flex appearance-none bg-background px-6 py-2 border-[1px] border-primary text-sm space-y-3'
         defaultValue={defaultValue}
         disabled={isPending}
         onChange={onSelectChange}
