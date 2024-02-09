@@ -2,10 +2,11 @@ import Image from 'next/image'
 import { AboutPic, Logo } from '@/assets'
 import { key } from '@/constants/index'
 import { useTranslations, useLocale } from 'next-intl';
+import { Locale } from '@/i18n';
 
 const About = () => {
   const t = useTranslations('about')
-  const locale = useLocale();
+  const locale: Locale = useLocale();
 
   return (
     <section id='nosotros' className='space-y-20'>

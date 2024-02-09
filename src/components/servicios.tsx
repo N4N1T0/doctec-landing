@@ -2,10 +2,11 @@ import { servicios } from '@/constants/index'
 import ServicesDialog from './shared/services-dialog'
 import ServicesCard from './shared/services-card'
 import { useTranslations, useLocale } from 'next-intl';
+import { Locale } from '@/i18n';
 
 const Servicios = () => {
   const t = useTranslations('servicios')
-  const locale = useLocale();
+  const locale: Locale = useLocale();
 
   return (
     <section id='servicios' className='flex flex-col md:flex-row justify-between items-start max-w-[1600px] mx-auto px-2 md:px-10 gap-10 md:gap-0'>

@@ -7,9 +7,10 @@ import { navItems } from '@/constants/index'
 import { Button } from '../ui/button'
 import LocaleSwitcher from './locale-switcher'
 import { useLocale } from 'next-intl'
+import { Locale } from '@/i18n'
 
 const MobileNavSheet = () => {
-  const locale = useLocale()
+  const locale: Locale = useLocale()
 
   return (
     <Sheet>

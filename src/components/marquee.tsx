@@ -2,6 +2,7 @@ import { brands, servicios } from '@/constants/index'
 import Image from 'next/image'
 import React from 'react'
 import { useTranslations, useLocale } from 'next-intl';
+import { Locale } from '@/i18n';
 
 interface MarqueeProps {
   withBbrands?: boolean,
@@ -9,7 +10,7 @@ interface MarqueeProps {
 
 const Marquee = ({ withBbrands = true }: MarqueeProps) => {
   const t = useTranslations('marquee')
-  const locale = useLocale();
+  const locale: Locale = useLocale();
 
   return (
     <div

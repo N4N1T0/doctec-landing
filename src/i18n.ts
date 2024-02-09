@@ -1,6 +1,8 @@
 import {notFound} from 'next/navigation';
 import {getRequestConfig} from 'next-intl/server';
  
+export type Locale = 'es' | 'en'
+
 // Can be imported from a shared config
 export const locales = ['en', 'es'];
 export const localePrefix = 'always'; // Default

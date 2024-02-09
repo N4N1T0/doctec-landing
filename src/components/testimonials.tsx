@@ -8,10 +8,11 @@ import {
 } from '@/components/ui/carousel'
 import TestimonialCard from './shared/testimonial-card'
 import { useLocale, useTranslations } from 'next-intl'
+import { Locale } from '@/i18n'
 
 const Testimonials = () => {
   const t = useTranslations('testimonials')
-  const locale = useLocale()
+  const locale: Locale = useLocale()
 
   return (
     <section id='testimonios' className='flex flex-col justify-center items-center max-w-[1600px] mx-auto px-2 md:px-10 gap-16' >

@@ -1,10 +1,11 @@
 import { projects } from '@/constants/index'
 import Image from 'next/image'
 import { useTranslations, useLocale } from 'next-intl'
+import { Locale } from '@/i18n'
 
 const Projects = () => {
   const t = useTranslations('projects')
-  const locale = useLocale()
+  const locale: Locale = useLocale()
 
   return (
     <section id='proyectos' className='space-y-20 flex flex-col justify-center items-center max-w-[1600px] mx-auto px-2 md:px-10'>

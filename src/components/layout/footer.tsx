@@ -3,9 +3,10 @@ import { navItems } from '@/constants'
 import Image from 'next/image'
 import { Facebook, Instagram } from 'lucide-react';
 import { useLocale } from 'next-intl';
+import { Locale } from '@/i18n';
 
 const Footer = () => {
-  const locale = useLocale()
+  const locale: Locale = useLocale()
 
   return (
     <footer className='flex flex-col justify-center text-center items-center max-w-[1600px] mx-auto p-10 md:p-20 gap-8 bg-foreground text-background my-10'>

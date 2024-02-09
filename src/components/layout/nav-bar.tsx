@@ -5,9 +5,10 @@ import { navItems } from '@/constants/index'
 import MobileNavSheet from './mobile-nav-sheet'
 import LocaleSwitcher from './locale-switcher'
 import { useLocale } from 'next-intl'
+import { Locale } from '@/i18n'
 
 const NavBar = () => {
-  const locale = useLocale()
+  const locale: Locale = useLocale()
 
   return (
     <header className='w-full flex justify-between items-center p-5 2xl:p-10 absolute z-40'>

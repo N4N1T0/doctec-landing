@@ -1,9 +1,10 @@
 import { process } from '@/constants'
+import { Locale } from '@/i18n'
 import { useLocale, useTranslations } from 'next-intl'
 
 const Process = () => {
   const t = useTranslations('process')
-  const locale = useLocale()
+  const locale: Locale = useLocale()
 
   return (
     <section id='proceso' className='flex flex-col justify-center items-center max-w-[1600px] mx-auto px-2 md:px-10 gap-16'>

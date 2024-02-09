@@ -3,10 +3,11 @@ import { Button } from './ui/button'
 import { preFooterStats } from '@/constants'
 import { Check } from './shared/icons'
 import { useLocale, useTranslations } from 'next-intl'
+import { Locale } from '@/i18n'
 
 const PreFooter = () => {
   const t = useTranslations('prefooter')
-  const locale = useLocale()
+  const locale: Locale = useLocale()
 
   return (
     <section className='flex flex-col justify-center text-center items-center max-w-[1600px] mx-auto px-10 py-10 md:py-20 gap-8 bg-primary/80 text-background'>
