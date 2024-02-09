@@ -2,8 +2,11 @@ import { Logo } from '@/assets/'
 import { navItems } from '@/constants'
 import Image from 'next/image'
 import { Facebook, Instagram } from 'lucide-react';
+import { useLocale } from 'next-intl';
 
 const Footer = () => {
+  const locale = useLocale()
+
   return (
     <footer className='flex flex-col justify-center text-center items-center max-w-[1600px] mx-auto p-10 md:p-20 gap-8 bg-foreground text-background my-10'>
       <div className='flex flex-col md:flex-row justify-between items-center w-full gap-5 md:gap-0'>
@@ -18,7 +21,7 @@ const Footer = () => {
           <ul className='flex flex-col md:flex-row justify-between items-center'>
             {navItems.map(item => (
               <li key={item.route}>
-                <a href={item.route} className='hover:text-primary transition-colors duration-200'>{item.label}</a>
+                <a href={item.route} className='hover:text-primary transition-colors duration-200'>{item.label[locale]}</a>
               </li>
             ))}
           </ul>

@@ -1,19 +1,22 @@
 import { HeroImage1, HeroImage2 } from '@/assets'
 import Image from 'next/image'
 import { Button } from './ui/button'
+import { useTranslations } from 'next-intl';
 
 const Hero = () => {
+  const t = useTranslations('hero')
+
   return (
     <section id='hero' className='h-screen w-full relative grid content-center'>
       <div className='hero-gradient absolute w-full h-full z-0' />
-      <div className='z-10 gap-5 2xl:gap-16 flex justify-center items-center flex-col px-8 md:px-10'>
+      <div className='z-10 gap-4 2xl:gap-16 flex justify-center items-center flex-col px-7 md:px-10'>
         <h1 className='text-5xl md:text-8xl 2xl:text-9xl uppercase md:leading-[9vw] leading-[20vw] text-center font-light'>
-          Somos <Image src={HeroImage1} width={300} height={150} alt='Una reunion de negocios con nuestros clientes' className='rounded-full inline object-cover aspect-video h-[130px]' priority /> <span className='font-bold'>Doctec</span> <span className='font-bold'>World</span> <Image src={HeroImage2} alt='Uno de nuestros especialistas compartiendo informacion' width={300} height={150} className='rounded-full inline object-cover aspect-video h-[130px]' priority /> <span className='w-[250px] text-base md:inline-block italic hidden'>somos una agencia de marketing y desarrollo web del futuro</span>
+          {t('h1-1')} <Image src={HeroImage1} width={300} height={140} alt='Una reunion de negocios con nuestros clientes' className='rounded-full inline object-cover aspect-video h-[120px]' priority /> <span className='font-bold'>Doctec</span> <span className='font-bold'>World</span> <Image src={HeroImage2} alt='Uno de nuestros especialistas compartiendo informacion' width={300} height={140} className='rounded-full inline object-cover aspect-video h-[120px]' priority /> <span className='w-[250px] text-base md:inline-block italic hidden'>{t('h1-span')}</span>
         </h1>
-        <h2 className='text-center md:text-lg 2xl:text-xl px-5 font-light'>Aplicamos las últimas tendencias en marketing digital, combinadas con tecnologías de vanguardia en el desarrollo de software.</h2>
-        <div className='gap-5 md:gap-10 flex flex-col md:flex-row'>
-          <Button className='text-background p-4 2xl:p-7 2xl:text-lg' asChild><a href='tel:+34-63-411-30-14'>Contacta con Nosotros</a></Button>
-          <Button className='text-background p-4 2xl:p-7 2xl:text-lg' asChild><a href='#Proyectos'>Proyectos de Exito</a></Button>
+        <h2 className='text-center md:text-lg 2xl:text-xl px-5 font-light'>{t('h2')}</h2>
+        <div className='gap-4 md:gap-10 flex flex-col md:flex-row'>
+          <Button className='text-background p-4 2xl:p-7 2xl:text-lg' asChild><a href='tel:+34-63-411-30-14'>{t('button-1')}</a></Button>
+          <Button className='text-background p-4 2xl:p-7 2xl:text-lg' asChild><a href='#Proyectos'>{t('button-2')}</a></Button>
         </div>
       </div>
       <div

@@ -5,8 +5,12 @@ import {
 } from '@/components/ui/sheet'
 import { navItems } from '@/constants/index'
 import { Button } from '../ui/button'
+import LocaleSwitcher from './locale-switcher'
+import { useLocale } from 'next-intl'
 
 const MobileNavSheet = () => {
+  const locale = useLocale()
+
   return (
     <Sheet>
       <SheetTrigger className='bg-primary block sm:hidden cursor-pointer w-12 h-10' asChild>
@@ -21,12 +25,15 @@ const MobileNavSheet = () => {
       <SheetContent>
         <ul className='pt-10 space-y-5'>
           {navItems.map((item) => (
-            <li key={item.label} className='hover:bg-primary transition-colors duration-200 p-2 rounded-lg'>
-              <a href={item.route}>{item.label}</a>
+            <li key={item.label[locale]} className='hover:bg-primary transition-colors duration-200 p-2 rounded-lg'>
+              <a href={item.route}>{item.label[locale]}</a>
             </li>
           ))}
           <li>
-            <Button className='text-background p-5'>Contactar</Button>
+            <Button className='text-background p-5'>{locale === 'en' ? "Contact" : "Contactar"}</Button>
+          </li>
+          <li>
+            <LocaleSwitcher />
           </li>
         </ul>
       </SheetContent>

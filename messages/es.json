@@ -1,0 +1,41 @@
+{
+  "LocaleSwitcher": {
+    "label": "Cambia el Lenguaje",
+    "locale": "{locale, select, es {Español} en {English} other {Unknown}}"
+  },
+  "hero": {
+    "h1-1": "Somos",
+    "h1-span": "somos una agencia de marketing y desarrollo web del futuro",
+    "h2": "Aplicamos las últimas tendencias en marketing digital, combinadas con tecnologías de vanguardia en el desarrollo de software.",
+    "button-1": "Contacta con nosotros",
+    "button-2": "Proyectos de Exito"
+  },
+  "about": {
+    "h3": "Acerca de Doctec World",
+    "p-1": "Doctec World es una distinguida agencia de Marketing y Desarrollo Web con sede en Marbella, conocida por nuestro compromiso de crear experiencias digitales excepcionales.",
+    "p-2": "Desde 2017, Doctec World ha estado remodelando los negocios en linea con un diseño de primer nivel y el poder de las nuevas tecnicas de Marketing Digital.",
+    "h3-2": "CONOCE NUESTROS DATOS CLAVE"
+  },
+  "projects":{
+    "h3": "Proyectos Elegidos",
+    "p": "Una Muestra de nuestros proyectos mas exitos"
+  },
+  "marquee": {
+    "h3": "Algunas otras marcas con las que hemos alcanzado el éxito"
+  },
+  "servicios": {
+    "h3": "Conoce Nuestros Servicios",
+    "p": "Una parte de nuestros mejores servicios"
+  },
+  "process": {
+    "h3": "Nuestro proceso"
+  },
+  "testimonials": {
+    "h3": "Testimonios de nuestros clientes"
+  },
+  "prefooter": {
+    "h3": "Soluciones innovadoras de web, marketing y branding",
+    "p": "Únase hoy mismo y experimente la diferencia. No pierda la oportunidad de transformar su negocio: ¡crezcamos juntos!",
+    "button": "Contacta con nosotros"
+  }
+}

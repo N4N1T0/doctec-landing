@@ -1,0 +1,41 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change Language",
+    "locale": "{locale, select, es {Español} en {English} other {Unknown}}"
+  },
+  "hero": {
+    "h1-1": "We Are",
+    "h1-span": "we are a future-forward marketing and web development agency",
+    "h2": "We apply the latest trends in digital marketing, combined with cutting-edge software development technologies.",
+    "button-1": "Contact Us",
+    "button-2": "Successful Projects"
+  },
+  "about": {
+    "h3": "About Doctec World",
+    "p-1": "Doctec World is a distinguished Marketing and Web Development agency based in Marbella, known for our commitment to creating exceptional digital experiences.",
+    "p-2": "Since 2017, Doctec World has been reshaping online businesses with top-notch design and the power of new Digital Marketing techniques.",
+    "h3-2": "KNOW OUR KEY DATA"
+  },
+  "projects":{
+    "h3": "Featured Projects",
+    "p": "A Showcase of our most successful projects"
+  },
+  "marquee": {
+    "h3": "Some other brands we have achieved success with"
+  },
+   "servicios": {
+    "h3": "Explore Our Services",
+    "p": "A selection of our top services"
+  },
+  "process": {
+    "h3": "Our Process"
+  },
+  "testimonials": {
+    "h3": "Testimonials from our clients"
+  },
+  "prefooter": {
+    "h3": "Innovative solutions for web, marketing, and branding",
+    "p": "Join today and experience the difference. Don't miss the opportunity to transform your business: let's grow together!",
+    "button": "Contact Us"
+  }
+}

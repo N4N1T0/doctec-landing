@@ -7,6 +7,11 @@ import Courtain from '@/components/courtain';
 
 import { DoctecMetatags } from '@/components/layout/metatag-seo';
 import { WebVitals } from '@/components/layout/web-vitals';
+import { locales } from '@/i18n';
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
 const openSans = Open_Sans({ subsets: ['latin'], weight: ['300', '500', '700', '800'] });
 
@@ -14,11 +19,13 @@ export const metadata = DoctecMetatags
 
 export default function RootLayout({
   children,
-}: Readonly<{
+  params: { locale }
+}: {
   children: React.ReactNode;
-}>) {
+  params: { locale: string };
+}) {
   return (
-    <html lang='es'>
+    <html lang={locale}>
       <body className={`${openSans.className} relative`}>
         {process.env.NODE_ENV === 'development' ? <WebVitals /> : null}
         <Courtain />
