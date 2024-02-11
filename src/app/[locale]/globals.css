@@ -40,6 +40,7 @@
   * {
     @apply border-border;
   }
+
   html {
     margin: 0;
     padding: 0;
@@ -47,8 +48,9 @@
     scroll-behavior: smooth;
     color-scheme: dark;
   }
+
   body {
-    @apply bg-background text-foreground;
+    scrollbar-color: var(--background) var(--primary);
   }
 }
 

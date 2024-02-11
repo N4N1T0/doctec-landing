@@ -13,7 +13,7 @@ const PreFooter = () => {
     <section className='flex flex-col justify-center text-center items-center max-w-[1600px] mx-auto px-10 py-10 md:py-20 gap-8 bg-primary/80 text-background'>
       <h3 className='uppercase text-4xl md:text-5xl md:w-2/3 px-5'>{t('h3')}</h3>
       <p>{t('p')}</p>
-      <Button className='bg-background text-foreground p-4 2xl:p-7 2xl:text-lg'><a href='tel:+34-63-411-30-14'>{t('button')}</a></Button>
+      <Button className='bg-background text-foreground p-4 2xl:p-7 2xl:text-lg'><a href='https://wa.me/34634113014'>{t('button')}</a></Button>
       <ul className='md:w-2/3 flex justify-between items-center flex-col md:flex-row gap-2 md:gap-0'>
         {preFooterStats[locale].map(stat => (
           <li key={stat} className='flex gap-2 justify-center items-center'>

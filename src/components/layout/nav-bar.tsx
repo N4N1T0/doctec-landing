@@ -21,7 +21,7 @@ const NavBar = () => {
         ))}
       </ul>
       <div className='flex gap-3'>
-        <Button className='text-background p-5 hidden sm:flex' asChild><a href='tel:+34-63-411-30-14'>{locale === 'en' ? 'Contact' : 'Contactar'}</a></Button>
+        <Button className='text-background p-5 hidden sm:flex' asChild><a href='https://wa.me/34634113014'>{locale === 'en' ? 'Contact' : 'Contactar'}</a></Button>
         <div className='hidden sm:block'>
           <LocaleSwitcher />
         </div>

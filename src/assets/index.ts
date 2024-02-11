@@ -24,12 +24,12 @@ import ThermogarShowcase from '@/assets/images/Termogar-Showcase.webp'
 import StyloShowcase from '@/assets/images/Stylo-Showcase.webp'
 import ClinicasShowcase from '@/assets/images/Clínicas-Salud-Método-Avanzado-Madrid-Showcase.webp'
 import Wear2FitShowcase from '@/assets/images/Wear-2-Fit-Showcase.webp'
-import Alberto from '@/assets/images/a_profile_picture_if_a_man_with_classes_and_bear.webp'
-import Maria from '@/assets/images/a_profile_picture_of_a_woman_with_a_lab_coat_and.webp'
-import Oscar from '@/assets/images/i_need_a_profile_picture_of_of_a_man_with_short_.webp'
-import Hector from '@/assets/images/i_need_a_profile_picture_of_of_a_bald_man_with_6.webp'
-import Rebecca2 from '@/assets/images/i_need_a_profile_picture_of_a_Brunette_woman_wit.webp'
-import Encarna from '@/assets/images/i_need_a_profile_picture_of_a_blonde_woman_in_hi.webp'
+import Alberto from '@/assets/images/Alberto.webp'
+import Maria from '@/assets/images/Maria.webp'
+import Oscar from '@/assets/images/a_profile_picture_if_a_man_with_classes_and_bear.webp'
+import Hector from '@/assets/images/Hector.webp'
+import Rebecca2 from '@/assets/images/Rebecca2.webp'
+import Encarna from '@/assets/images/Encarna.webp'
 
 export {
   Baterias1,

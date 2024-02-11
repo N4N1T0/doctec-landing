@@ -16,10 +16,10 @@ interface TestimonialCardProps {
 
 const TestimonialCard = ({ testimonial }: TestimonialCardProps) => {
   return (
-    <div className='p-10 bg-foreground text-background space-y-7 relative shrink-0 grow'>
+    <div className='p-10 bg-foreground text-background space-y-7 relative h-full flex flex-col justify-between items-center'>
       <h4 className='text-3xl pr-5'>{testimonial.highlight}</h4>
       <p className='font-light text-black'>{testimonial.testimonial}</p>
-      <hr className='border-primary border-[0.7px]' />
+      <hr className='border-primary border-[0.7px] w-full' />
       <div className='w-full flex justify-between items-center'>
         <div className='flex gap-5 items-center justify-center'>
           <Image src={testimonial.client.picture} alt={testimonial.client.name} width={100} height={100} className='rounded-full' />

@@ -27,7 +27,7 @@ export default function RootLayout({
   unstable_setRequestLocale(locale);
   return (
     <html lang={locale}>
-      <body className={`${openSans.className} relative`}>
+      <body className={`${openSans.className} relative bg-background text-foreground`}>
         {process.env.NODE_ENV === 'development' ? <WebVitals /> : <SpeedInsights />}
         <Courtain />
         <NavBar />

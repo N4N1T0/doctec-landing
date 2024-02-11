@@ -500,7 +500,7 @@ export const testimonials = {
     },
     {
       highlight: '"Anticipando el próximo capítulo de colaboración con Doctec World."',
-      testimonial: '"En nuestra asociación con la red de clínicas, hemos mejorado nuestra presencia digital y consolidado nuestra identidad de marca mediante estrategias de marketing digital. Esta colaboración ha sido esencial para alcanzar logros destacados, y esperamos seguir avanzando juntos en el futuro."',
+      testimonial: '"En nuestra asociación con los 2 centros de estética, hemos mejorado nuestra presencia digital y consolidado nuestra identidad de marca mediante estrategias de marketing digital. Esta colaboración ha sido esencial para alcanzar logros destacados, y esperamos seguir avanzando juntos en el futuro."',
       client: {
         name: 'María José Barba',
         position: 'CEO de MJ Esthetic Advanced',
@@ -535,7 +535,7 @@ export const testimonials = {
       }
     },
     {
-      highlight: '"Doctec World ha sido nuestro aliado desde el principio, llevando nuestra marca a nuevas alturas."',
+      highlight: '"Doctec World ha sido nuestro aliado por años, llevando nuestra marca a nuevas alturas."',
       testimonial: '"Desde 2020, Doctec World ha sido fundamental para el crecimiento y la expansión de nuestra empresa. Como gerente de Distribuidora Enka Estética Profesional - Málaga, confío plenamente en su experiencia y profesionalismo. ¡Espero con ansias lo que el futuro nos depara juntos!"',
       client: {
         name: 'Encarna Castillo',
@@ -557,7 +557,7 @@ export const testimonials = {
     },
     {
       highlight: '"Anticipating the next chapter of collaboration with Doctec World."',
-      testimonial: '"In our partnership with the clinic network, we have enhanced our digital presence and consolidated our brand identity through digital marketing strategies. This collaboration has been essential for achieving notable accomplishments, and we look forward to advancing together in the future."',
+      testimonial: '"In our partnership with the 2 beauty centers, we have enhanced our digital presence and consolidated our brand identity through digital marketing strategies. This collaboration has been essential for achieving notable accomplishments, and we look forward to advancing together in the future."',
       client: {
         name: 'María José Barba',
         position: 'CEO of MJ Esthetic Advanced',
@@ -592,7 +592,7 @@ export const testimonials = {
       }
     },
     {
-      highlight: '"Doctec World has been our ally from the beginning, taking our brand to new heights."',
+      highlight: '"Doctec World has been our ally for years, taking our brand to new heights."',
       testimonial: '"Since 2020, Doctec World has been instrumental in the growth and expansion of our company. As the manager of Distribuidora Enka Estética Profesional - Málaga, I fully trust in their expertise and professionalism. I look forward to what the future holds for us together!"',
       client: {
         name: 'Encarna Castillo',

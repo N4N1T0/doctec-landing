@@ -26,13 +26,13 @@ const Testimonials = () => {
       >
         <CarouselContent>
           {testimonials[locale].map(testimonial => (
-            <CarouselItem key={testimonial.client.name} className='md:basis-1/2 2xl:basis-1/3 grow flex-shrink-0'>
+            <CarouselItem key={testimonial.client.name} className='md:basis-1/2 2xl:basis-1/3'>
               <TestimonialCard testimonial={testimonial} />
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className='hover:bg-primary' />
+        <CarouselNext className='hover:bg-primary' />
       </Carousel>
     </section>
   )
