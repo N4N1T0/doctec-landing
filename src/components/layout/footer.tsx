@@ -14,8 +14,8 @@ const Footer = () => {
         <div className='space-y-3'>
           <Image src={Logo} alt='Doctec World Logo' width={50} height={50} />
           <div className='flex gap-3 justify-center items-center'>
-            <a href='https://web.facebook.com/doctecworld/?_rdc=1&_rdr' target='_blank' aria-label='Facebook Link'><Facebook /></a>
-            <a href='https://www.instagram.com/doctecworld/' target='_blank' aria-label='Instagram Link'><Instagram /></a>
+            <a href='https://web.facebook.com/doctecworld/?_rdc=1&_rdr' target='_blank' aria-label='Facebook Link' className='hover:bg-primary transition-colors duration-200 rounded-full p-2'><Facebook /></a>
+            <a href='https://www.instagram.com/doctecworld/' target='_blank' aria-label='Instagram Link' className='hover:bg-primary transition-colors duration-200 rounded-full p-2'><Instagram /></a>
           </div>
         </div>
         <nav className='md:w-[500px]'>
