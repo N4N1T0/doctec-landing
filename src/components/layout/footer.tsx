@@ -28,7 +28,7 @@ const Footer = () => {
           </ul>
         </nav>
         <div className='text-center md:text-right space-y-3'>
-          <a href='https://wa.me/34634113014' className='block hover:text-primary transition-colors duration-200'>+34 63 411 30 14</a>
+          <a href='https://wa.me/34634113014?text=Hola,%20estoy%20interesad@%20en%20conocer%20más%20sobre%20los%20servicios%20que%20ofrece%20tu%20agencia.%20¿Podríamos%20hablar%20al%20respecto?' className='block hover:text-primary transition-colors duration-200' target='_blank'>+34 63 411 30 14</a>
           <a href='mailto:info@doctortecnologico.com' className='block hover:text-primary transition-colors duration-200'>info@doctortecnologico.com</a>
         </div>
       </div>

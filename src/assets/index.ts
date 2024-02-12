@@ -26,7 +26,7 @@ import ClinicasShowcase from '@/assets/images/Clínicas-Salud-Método-Avanzado-M
 import Wear2FitShowcase from '@/assets/images/Wear-2-Fit-Showcase.webp'
 import Alberto from '@/assets/images/Alberto.webp'
 import Maria from '@/assets/images/Maria.webp'
-import Oscar from '@/assets/images/a_profile_picture_if_a_man_with_classes_and_bear.webp'
+import Oscar from '@/assets/images/Oscar.webp'
 import Hector from '@/assets/images/Hector.webp'
 import Rebecca2 from '@/assets/images/Rebecca2.webp'
 import Encarna from '@/assets/images/Encarna.webp'

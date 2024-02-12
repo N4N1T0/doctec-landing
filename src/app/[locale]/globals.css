@@ -46,11 +46,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    color-scheme: dark;
-  }
-
-  body {
-    scrollbar-color: var(--background) var(--primary);
+    scrollbar-color: #FFA600 #1F1F1F;
   }
 }
 

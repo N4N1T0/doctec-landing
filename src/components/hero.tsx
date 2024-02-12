@@ -15,7 +15,7 @@ const Hero = () => {
         </h1>
         <h2 className='text-center md:text-lg 2xl:text-xl px-5 font-light'>{t('h2')}</h2>
         <div className='gap-4 md:gap-10 flex flex-col md:flex-row'>
-          <Button className='text-background p-4 2xl:p-7 2xl:text-lg' asChild><a href='https://wa.me/34634113014'>{t('button-1')}</a></Button>
+          <Button className='text-background p-4 2xl:p-7 2xl:text-lg' asChild><a href='https://wa.me/34634113014?text=Hola,%20estoy%20interesad@%20en%20conocer%20más%20sobre%20los%20servicios%20que%20ofrece%20tu%20agencia.%20¿Podríamos%20hablar%20al%20respecto?' target='_blank'>{t('button-1')}</a></Button>
           <Button className='text-background p-4 2xl:p-7 2xl:text-lg' asChild><a href='#proyectos'>{t('button-2')}</a></Button>
         </div>
       </div>
